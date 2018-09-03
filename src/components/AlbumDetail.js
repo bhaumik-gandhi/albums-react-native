@@ -44,8 +44,8 @@ const AlbumDetail = ({ album }) => {
             </CardSection>
 
             <CardSection>
-                <Button
-                    onPress={() => Linking.openURL(url)} 
+                <Button 
+                    onPress={() => Linking.openURL(url)}
                 >
                     Buy Now
                 </Button>
@@ -60,7 +60,7 @@ const styles = {
         justifyContent: 'space-around'
     },
     headerTextStyle: {
-        fonstSize: 18
+        fontSize: 18
     },
     thumbnailStyle: {
         height: 50,
@@ -70,7 +70,7 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         marginLeft: 10,
-        mmarginRight: 10
+        marginRight: 10
     },
     imageStyle: {
         height: 300,
